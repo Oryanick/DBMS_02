@@ -54,6 +54,13 @@ entity "Loan" as L {
   ReturnDate          : DATE
 }
 
+entity "Genre" as G {
+  * GenreID            : INTEGER     <<PK>>
+  --
+  Name          : VARCHAR(50)
+}
+
+
 ' ============================================================
 ' TODO: Add relationships here
 '
@@ -77,7 +84,7 @@ entity "Loan" as L {
     Book ||--|{ Copy : "is available as"
     Member ||--o{ Loan : "places"
     Copy ||--o{ Loan : "is borrowed in"
-
+    Book ||--o{ Genre: "belongs to"
 ' ============================================================
 
 
