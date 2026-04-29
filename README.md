@@ -673,7 +673,7 @@ instead.
 > `schema.svg` from the Release in the same browser window alongside it.
 > Capture both in one screenshot and insert it here.
 >
-> `![Screenshot6](https://github.com/Oryanick/DBMS_02/blob/master/Screenshot%206.png)
+> ![Screenshot6](https://github.com/Oryanick/DBMS_02/blob/master/Screenshot%206.png)
 
 ---
 
@@ -721,7 +721,7 @@ instead.
    > **Screenshot 7:** Take a screenshot of your extended `schema.svg` and the
    > corresponding GitHub Release page, and insert it here.
    >
-   > `[insert screenshot]`
+   > ![Screenshot7](https://github.com/Oryanick/DBMS_02/blob/master/Screenshot%207.png)
 
 ---
 
